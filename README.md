@@ -36,6 +36,7 @@ The project will be build to be modular and performance-oriented:
 This is a semester-long research project. Current progress:
 
 - [x] **Phase 1:** Mathematical analysis of the Aliev-Panfilov system & stability conditions.
+- [ ] **Literature Review:** In-depth study of selected papers on Projective Integration stability (In Progress).
 - [ ] **Phase 2:** Repository setup and CMake architecture.
 - [ ] **Phase 3:** Implementation of the 2D Laplacian operator using Finite Differences.
 - [ ] **Phase 4:** Implementation of the Baseline Solver (Explicit Euler).
