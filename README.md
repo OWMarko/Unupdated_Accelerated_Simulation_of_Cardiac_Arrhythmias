@@ -32,7 +32,7 @@ The project will be build to be modular and performance-oriented:
 * **Visualization :** VTK file export for analysis in [Paraview](https://www.paraview.org/).
 * **Reproducibility : ** Docker containerization currently in the implementation pipeline
 
-## 🗺️ Project Roadmap
+## Project Roadmap
 This is a semester-long research project. Current progress:
 
 - [x] **Phase 1:** Mathematical analysis of the Aliev-Panfilov system & stability conditions.
@@ -42,7 +42,7 @@ This is a semester-long research project. Current progress:
 - [ ] **Phase 5:** Implementation of the **Projective Integration** algorithm (Time-jumps).
 - [ ] **Phase 6:** Benchmarking & Paraview Visualization.
 
-## 🚀 Building the Project (Coming Soon)
+## Building the Project (Coming Soon)
 Requirements: `CMake >= 3.10`, `g++` (supporting C++17), `Eigen3`.
 
 ```bash
