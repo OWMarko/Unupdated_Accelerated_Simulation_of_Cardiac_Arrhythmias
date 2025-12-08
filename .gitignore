@@ -1,41 +1,65 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
+# ==========================
+# C++ & CMake Build Artifacts
+# ==========================
+build/
+bin/
+lib/
+cmake-build-debug/
+cmake-build-release/
+CMakeFiles/
+CMakeCache.txt
+*.cmake
+Makefile
 *.o
 *.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Linker files
-*.ilk
-
-# Debugger Files
-*.pdb
-
-# Compiled Dynamic libraries
 *.so
 *.dylib
 *.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
 *.exe
 *.out
 *.app
+compile_commands.json
 
-# debug information files
-*.dwo
+# ==========================
+# Data & Simulation Outputs
+# ==========================
+# On ignore tout le contenu du dossier outputs...
+data/outputs/*
+# ... Sauf le fichier .gitkeep qui permet de garder le dossier vide sur GitHub
+!data/outputs/.gitkeep
+
+# Fichiers volumineux générés
+*.csv
+*.dat
+*.log
+*.vtk
+*.vtu
+*.vtp
+*.pvsm
+
+# ==========================
+# Python (Scripts)
+# ==========================
+__pycache__/
+*.pyc
+.Python
+env/
+venv/
+.ipynb_checkpoints/
+
+# ==========================
+# IDE & System Files
+# ==========================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================
+# LaTeX (Si tu mets ton rapport dans docs/)
+# ==========================
+docs/*.aux
+docs/*.log
+docs/*.toc
+docs/*.out
+docs/*.synctex.gz
