@@ -30,7 +30,7 @@ The project will be build to be modular and performance-oriented:
 * **Parallelism :** OpenMP for multi-core spatial diffusion.
 * **Numerical Scheme :** Hybrid approach combining an explicit micro-solver (Euler/RK4) and a projective macro-stepper.
 * **Visualization :** VTK file export for analysis in [Paraview](https://www.paraview.org/).
-* **Reproducibility : ** Docker containerization currently in the implementation pipeline
+* **Reproducibility :** Docker containerization currently in the implementation pipeline
 
 ## Project Roadmap
 This is a semester-long research project. Current progress:
