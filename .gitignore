@@ -1,6 +1,4 @@
-# ==========================
 # C++ & CMake Build Artifacts
-# ==========================
 build/
 bin/
 lib/
@@ -20,14 +18,7 @@ Makefile
 *.app
 compile_commands.json
 
-# ==========================
 # Data & Simulation Outputs
-# ==========================
-# On ignore tout le contenu du dossier outputs...
-data/outputs/*
-# ... Sauf le fichier .gitkeep qui permet de garder le dossier vide sur GitHub
-!data/outputs/.gitkeep
-
 # Fichiers volumineux générés
 *.csv
 *.dat
@@ -37,9 +28,7 @@ data/outputs/*
 *.vtp
 *.pvsm
 
-# ==========================
 # Python (Scripts)
-# ==========================
 __pycache__/
 *.pyc
 .Python
@@ -47,17 +36,13 @@ env/
 venv/
 .ipynb_checkpoints/
 
-# ==========================
 # IDE & System Files
-# ==========================
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
 
-# ==========================
-# LaTeX (Si tu mets ton rapport dans docs/)
-# ==========================
+# LaTeX
 docs/*.aux
 docs/*.log
 docs/*.toc
