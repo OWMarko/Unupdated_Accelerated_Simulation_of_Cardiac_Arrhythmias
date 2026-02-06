@@ -1,1 +1,19 @@
+FROM ubuntu:22.04
 
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    cmake \
+    git \
+    libomp-dev \
+    python3 \
+    python3-numpy \
+    && rm -rf /var/lib/apt/lists/*
+
+WORKDIR /app
+COPY . .
+
+RUN git clone --branch 3.4 https://gitlab.com/libeigen/eigen.git external/eigen
+
+RUN mkdir build && cd build && cmake .. && make -j4
+
+CMD ["./build/CardiacSim"]
