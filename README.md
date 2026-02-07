@@ -1,4 +1,4 @@
-# Accelerated Simulation of Cardiac Arrhythmias in Heterogeneous Environments : A Projective Integration Approach (In progress since December 2025)
+# Accelerated Simulation of Cardiac Arrhythmias by Projective Integration on Unstructured Meshes (In progress since December 2025)
 
 ![Status](https://img.shields.io/badge/Status-Work_In_Progress-yellow)
 ![Language](https://img.shields.io/badge/C++-17-blue)
