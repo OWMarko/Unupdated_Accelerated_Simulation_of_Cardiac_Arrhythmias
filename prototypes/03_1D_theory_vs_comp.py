@@ -48,7 +48,7 @@ def solve_1d(alpha_val):
     u_new = np.zeros(Nx)
 
     # Stimulation by applying a shock on the left side
-    u[0:10] = 1.0 
+    u[0:10] = 1.0 #I_stim
 
     # We will track the position of the wave front to calculate velocity later
     wave_pos = []
