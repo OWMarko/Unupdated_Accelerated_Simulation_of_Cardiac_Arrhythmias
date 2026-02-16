@@ -5,9 +5,9 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Overview
-This repository hosts the source code for my **First year of MSc Thesis in Engineering Mathematics** (Université Côte d'Azur).
+This repository hosts the source code for my first year of MSc in Engineering Mathematics (Université Côte d'Azur).
 
-The goal is to develop a high-performance solver for cardiac electrophysiology using **Projective Integration** (Equation-Free framework). This method aims to overcome the time-scale stiffness inherent in biological models to accelerate "Digital Twin" simulations.
+The goal is to develop a high-performance solver for cardiac electrophysiology using PFE (Equation-Free framework). This method aims to overcome the time-scale stiffness inherent in biological models to accelerate "Digital Twin" simulations.
 
 ## The Mathematical Model
 We focus on the **Aliev-Panfilov** model, a reaction-diffusion system describing the propagation of excitation waves in cardiac tissue:
