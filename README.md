@@ -5,8 +5,6 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 
 ## 📌 Overview
-This repository hosts the source code for my first year of MSc in Engineering Mathematics (Université Côte d'Azur).
-
 The goal is to develop a high-performance solver for cardiac electrophysiology using PFE (Equation-Free framework). This method aims to overcome the time-scale stiffness inherent in biological models to accelerate "Digital Twin" simulations.
 
 ## The Mathematical Model
